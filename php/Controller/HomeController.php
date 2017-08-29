@@ -6,7 +6,7 @@
 
         public function home()
 		{
-			require "../Model/ItemsModel.php"; // Charger le fichier php
+			require "php/Model/ItemsModel.php"; // Charger le fichier php
 			$dbItem = new ItemsModel();
 			$itemsHome = $dbItem->listenerItems();
 			   
